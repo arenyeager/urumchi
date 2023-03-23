@@ -30,6 +30,8 @@ public interface AccountDao {
 	Account findByID(Integer id);
 	
 	
+	
+	
 	@Select("select * from account")
 	List<Account> findAll();
 	
