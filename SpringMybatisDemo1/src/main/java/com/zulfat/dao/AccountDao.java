@@ -15,7 +15,7 @@ public interface AccountDao {
 	
 	
 	@Insert("insert into account(name,money)values(#{name},#{money}")
-	void save(Account account);
+	void saveOne(Account account);
 	
 	@Delete("delete from account where id = #{id}")
 	void delete(Integer id);	
