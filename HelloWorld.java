@@ -1,3 +1,3 @@
 pulic class hello(){
-    
+    hello
 }
